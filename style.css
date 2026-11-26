@@ -1,0 +1,16 @@
+:root { --mat: #1f4a40; --cream: #f1ead8; --faint: #b9c4b9; --slate: #23292a; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--mat); color: var(--cream);
+  font: 17px/1.55 Rockwell, "Roboto Slab", Georgia, serif;
+}
+main { max-width: 38rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+h2 { font-size: 1.15rem; margin: 2rem 0 .25rem; }
+.date, .lang { color: var(--faint); font-size: .9rem; }
+.lang { margin: 0 0 2rem; }
+p { margin: .6rem 0; }
+a { color: var(--cream); text-underline-offset: 3px; }
+.card { background: var(--slate); border-radius: 12px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.card a { display: block; padding: .35rem 0; font-size: 1.1rem; }
